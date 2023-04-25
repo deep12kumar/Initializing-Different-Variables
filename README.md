@@ -5,3 +5,26 @@ A variable is nothing but a name given to a storage area that our programs can m
 The name of a variable can be composed of letters, digits, and the underscore character. It must begin with either a letter or an underscore. Upper and lowercase letters are distinct because C is case-sensitive. Based on the basic types explained in the previous chapter, there will be the following basic variable types −
 
 ![image](https://user-images.githubusercontent.com/125429608/234254150-1d981479-f023-45cb-b642-65efe72daae3.png)
+Sr.No. Type & Description 1 char
+
+Typically a single octet(one byte). It is an integer type.
+
+2 int
+
+The most natural size of integer for the machine.
+
+3 float
+
+A single-precision floating point value.
+
+4 double
+
+A double-precision floating point value.
+
+5 void
+
+Represents the absence of type.
+
+C programming language also allows to define various other types of variables, which we will cover in subsequent chapters like Enumeration, Pointer, Array, Structure, Union, etc. For this chapter, let us study only basic variable types.
+
+Variable Definition in C A variable definition tells the compiler where and how much storage to create for the variable. A variable definition specifies a data type and contains a list of one or more variables of that type as follows −
